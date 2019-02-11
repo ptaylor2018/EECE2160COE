@@ -7,3 +7,7 @@ Circle::Circle(std::string name, float radius):Shape(name){
 void Circle::Print(){
 	std::cout << "Circle with radius " << radius << '\n';
 }
+
+float Circle::GetArea(){
+	return 3.141592* radius * radius;
+}

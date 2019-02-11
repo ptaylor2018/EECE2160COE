@@ -9,5 +9,6 @@ class Rectangle : public Shape{
 
 public:
 	Rectangle(std::string name, float width, float height);
+	float GetArea();
 };
 #endif

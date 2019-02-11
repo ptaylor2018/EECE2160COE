@@ -10,5 +10,8 @@ public:
 	
 	//Override function 'Print()'
 	void Print();
+
+	// Return area of the circle
+	float GetArea();
 };
 #endif

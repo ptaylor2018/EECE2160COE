@@ -7,3 +7,6 @@ Rectangle::Rectangle(std::string name, float width, float height) : Shape(name){
 	this->width = width;
 	this->height = height;
 }
+float Rectangle::GetArea(){
+	return this->width*this->height;
+}
